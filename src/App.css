@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(./fonts/Helvetica.ttf);
+}
+@font-face {
+    font-family: Recoleta;
+    src: url(./fonts/recoleta-regulardemo.otf);
+}
+@font-face {
+    font-family: Reikna;
+    src: url(./fonts/Reikna.ttf);
+}
+@font-face {
+    font-family: Emilio;
+    src: url(./fonts/emilio.ttf);
+}
+@font-face {
+    font-family: Mango;
+    src: url(./fonts/WildMango.otf);
+}
+.helvetica {
+    font-family: Helvetica;
+}
+.recoleta {
+    font-family: Recoleta;
+}
+.reikna{
+    font-family: Reikna;
+}
+.emilio{
+    font-family: Emilio;
+}
+.mango{
+    font-family: Mango;
+}
