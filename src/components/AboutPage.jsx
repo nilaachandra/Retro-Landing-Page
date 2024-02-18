@@ -1,7 +1,7 @@
 import React from 'react'
 import ImageCard from './ImageCard'
 
-function AboutPage() {
+const AboutPage = () => {
   return (
     <div className='w-full h-screen flex bg-[#f8f6f4]'>
         <div className="leftside w-1/2 h-full border-2 border-[#871515]">

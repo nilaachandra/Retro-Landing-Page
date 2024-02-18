@@ -33,3 +33,7 @@
 .mango{
     font-family: Mango;
 }
+.logo{
+    border-radius: 50% 50% 0 0;
+    overflow: hidden;
+}
