@@ -26,10 +26,10 @@ const Featurespage = () => {
         ))}
       </div>
       <div className="rightside leftside w-1/2 h-full border-2 border-black bg-black flex flex-col justify-center items-center">
-        <div className="colorholder w-full flex justify-center gap-[2vw]">
+        <div className="colorholder w-full flex justify-evenly mx-[3vw]">
           {["#d96f55", "#dea350", "#75b079", "#d3e9de", "#ead6c8"].map(
             (color, index) => (
-              <div key={index} className="h-[5vw] w-[5vw] border rounded-2xl my-[6vh] border-black" style={{backgroundColor: color} }></div>
+              <div key={index} className="h-[6vw] w-[6vw] border rounded-3xl my-[6vh] border-black" style={{backgroundColor: color} }></div>
             )
           )}
         </div>
