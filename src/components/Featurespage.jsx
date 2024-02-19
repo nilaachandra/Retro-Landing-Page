@@ -29,17 +29,20 @@ const Featurespage = () => {
         <div className="colorholder w-full flex justify-evenly mx-[3vw]">
           {["#d96f55", "#dea350", "#75b079", "#d3e9de", "#ead6c8"].map(
             (color, index) => (
-              <div key={index} className="h-[6vw] w-[6vw] border rounded-3xl my-[6vh] border-black" style={{backgroundColor: color} }></div>
+              <div
+                key={index}
+                className="h-[6vw] w-[6vw] border rounded-3xl my-[6vh] border-black"
+                style={{ backgroundColor: color }}
+              ></div>
             )
           )}
         </div>
         <div className="logo w-[25vw] mt-[3vw] flex justify-center items-center">
-        <img
-          src="https://i.pinimg.com/564x/32/36/9e/32369eacbae35abb1e640fb2ff84c8c8.jpg"
-          alt=""
-        />
+          <img
+            src="https://i.pinimg.com/564x/32/36/9e/32369eacbae35abb1e640fb2ff84c8c8.jpg"
+            alt=""
+          />
         </div>
-        
       </div>
     </div>
   );
