@@ -2,7 +2,7 @@ import React from "react";
 
 const Vintagepage = () => {
   return (
-    <div className="w-full h-[80vh] flex border-b-2 border-black">
+    <div className="w-full h-[80vh] px-[4vw] flex border-b-2 border-black bg-[#f4f0ef]">
       <div className="rightside w-1/2 flex flex-col justify-center items-center mt-[8vw]">
         <h1 className="mango text-[20vw] leading-[14vw]">'70s</h1>
         <h3 className="helvetica font-bold uppercase text-[6vw]">Vintage</h3>

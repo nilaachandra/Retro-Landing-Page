@@ -6,6 +6,7 @@ import AboutPage from "./components/AboutPage";
 import Featurespage from "./components/Featurespage";
 import Vintagepage from "./components/Vintagepage";
 import Context from "./components/Context";
+import BottomHero from "./components/BottomHero";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Featurespage/>
         <Vintagepage/>
         <Context/>
+        <BottomHero/>
       </div>
     </>
   );
