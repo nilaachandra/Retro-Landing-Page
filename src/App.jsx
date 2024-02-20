@@ -5,6 +5,7 @@ import Landingpage from "./components/Landingpage";
 import AboutPage from "./components/AboutPage";
 import Featurespage from "./components/Featurespage";
 import Vintagepage from "./components/Vintagepage";
+import Context from "./components/Context";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <AboutPage/>
         <Featurespage/>
         <Vintagepage/>
+        <Context/>
       </div>
     </>
   );

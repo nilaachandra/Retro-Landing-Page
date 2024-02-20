@@ -10,12 +10,12 @@ const AboutPage = () => {
         <div className="leftside w-1/2 h-full border-2 border-[#871515] p-[6vw]">
             <h1 className='mango text-[#871515] text-[9vw] leading-[9vw]'>About</h1>
             <div className='flex flex-col gap-4'>
-            <p className="text-[#871515] italic text-[1.6vw]">
+            <p className="text-[#871515] Helvetica italic text-[1.6vw]">
                 We are witnessing a huge comeback of vibrant, daring flat designs inspired by the
                 70s art movement. Whether simple or more complex, these design composition puts bright
                 saturated colors on the pedestal
             </p>
-            <p className="text-[#871515] italic text-[1.6vw]">
+            <p className="text-[#871515] Helvetica italic text-[1.6vw]">
                 Although bold and quite flashy, the color combinations of the 70s retro flat designs are
                 aesthetically pleasing. The colors go well together and manage to balance overall design.
             </p>
