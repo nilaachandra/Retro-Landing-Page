@@ -26,20 +26,27 @@ function Footer() {
         ))}
       </div>
       <div className="socials flex gap-[1vw]">
-        <RiTwitterFill className="text-white" size={36} href="" />
+        <a href="">
+          <RiTwitterFill className="text-white" size={36} href="" />
+        </a>
         <a href="https://github.com/nilaachandra">
           <RiGithubFill className="text-white" size={36} />
         </a>
-        <RiInstagramFill className="text-white" size={36} />
+        <a href="">
+          <RiInstagramFill className="text-white" size={36} />
+        </a>
       </div>
       <p className="text-white helvetica italic">
-        <span className="font-bold">Disclaimer:</span> This website, inspired by a Behance project, is for
-        educational purposes. The design and images used belong to their
-        respective owners. I neither claim ownership nor intend to profit from
-        them. If any concerns arise, kindly contact me. Thank you for
-        understanding.
+        <span className="font-bold">Disclaimer:</span> This website, inspired by
+        a Behance project, is for educational purposes. The design and images
+        used belong to their respective owners. I neither claim ownership nor
+        intend to profit from them. If any concerns arise, kindly contact me.
+        Thank you for understanding.
       </p>
-      <p className="text-white text-[1.2vw] helvetica">Developed with &#x2764; | Nila Laishram | &#169;2024 | All Rights Reserved</p>
+      <p className="text-white text-[1.2vw] helvetica">
+        Developed with &#x2764; | Nila Laishram | &#169;2024 | All Rights
+        Reserved
+      </p>
     </div>
   );
 }
