@@ -7,6 +7,7 @@ import Featurespage from "./components/Featurespage";
 import Vintagepage from "./components/Vintagepage";
 import Context from "./components/Context";
 import BottomHero from "./components/BottomHero";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Vintagepage/>
         <Context/>
         <BottomHero/>
+        <Footer/>
       </div>
     </>
   );

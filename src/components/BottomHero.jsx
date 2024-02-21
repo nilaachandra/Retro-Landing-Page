@@ -12,9 +12,8 @@ function BottomHero() {
            <h1 className='mango text-[9vw] leading-[9vw]'>Online</h1>
            <p className='Helvetica text-gray-700 italic text-[2vw]'>When?</p>
            <h1 className='mango text-[6vw] leading-[6vw]'>08.08.2024</h1>
-           <h1 className='mango text-[6vw] leading-[6vw]'>19:00</h1>
-           <button className='border-2 border-black bg-black text-white text-[2vw] px-[1.4vw] rounded-xl mt-[2vw]' >Register</button>
-            
+           <h1 className='mango text-[6vw] leading-[6vw]'>19:00 IST</h1>
+           <button className='border-2 Helvetica italic border-black bg-black text-white text-[2vw] px-[1.4vw] py-[0.3vw] rounded-3xl mt-[2vw]' >Register</button>
         </div>
     </div>
   )
