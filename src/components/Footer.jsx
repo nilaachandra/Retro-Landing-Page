@@ -27,7 +27,7 @@ function Footer() {
       </div>
       <div className="socials flex gap-[1vw]">
         <a href="">
-          <RiTwitterFill className="text-white" size={36} href="" />
+          <RiTwitterFill className="text-white" size={36} />
         </a>
         <a href="https://github.com/nilaachandra">
           <RiGithubFill className="text-white" size={36} />
