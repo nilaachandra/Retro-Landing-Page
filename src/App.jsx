@@ -8,6 +8,7 @@ import Vintagepage from "./components/Vintagepage";
 import Context from "./components/Context";
 import BottomHero from "./components/BottomHero";
 import Footer from "./components/Footer";
+import Moodcard from "./components/Moodcard";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Context/>
         <BottomHero/>
         <Footer/>
+        <Moodcard image="https://images.unsplash.com/photo-1532673492-1b3cdb05d51b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
       </div>
     </>
   );
