@@ -8,7 +8,7 @@ function Marquee() {
         <motion.h1
           initial={{ x: "0" }}
           animate={{ x: "-100%" }}
-          transition={{ repeat: Infinity, ease: "linear", duration: 3 }}
+          transition={{ repeat: Infinity, ease: "linear", duration: 5 }}
           className="text-white text-[2.5vw] uppercase helvetica  pr-[3vw]"
         >
           Vintage Retro Style Workshop
@@ -16,7 +16,7 @@ function Marquee() {
         <motion.h1
           initial={{ x: "0" }}
           animate={{ x: "-100%" }}
-          transition={{ repeat: Infinity, ease: "linear", duration: 3 }}
+          transition={{ repeat: Infinity, ease: "linear", duration: 5 }}
           className="text-white text-[2.5vw] uppercase helvetica pr-[3vw]"
         >
           Vintage Retro Style Workshop
@@ -24,7 +24,7 @@ function Marquee() {
         <motion.h1
           initial={{ x: "0" }}
           animate={{ x: "-100%" }}
-          transition={{ repeat: Infinity, ease: "linear", duration: 3 }}
+          transition={{ repeat: Infinity, ease: "linear", duration: 5 }}
           className="text-white text-[2.5vw] uppercase helvetica pr-[3vw]"
         >
           Vintage Retro Style Workshop
