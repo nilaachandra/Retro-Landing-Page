@@ -38,4 +38,14 @@
     overflow: hidden;
 }
 
-  
+.marquee::-webkit-scrollbar{
+    display: none;
+}
+@keyframes myMarquee {
+    0%{
+        transform: translate(20%);
+    }
+    100%{
+        transform: translateX(calc(-100%));
+    }
+}
