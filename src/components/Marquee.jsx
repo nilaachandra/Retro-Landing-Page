@@ -1,8 +1,8 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
-function Marquee() {
+const Marquee = () => {
   const container = useRef();
   let myMarquee = useRef(null);
 
@@ -10,10 +10,9 @@ function Marquee() {
     () => {
       myMarquee.current = gsap.to(".run", {
         x: "-100%",
-        repeat: 1000,
+        repeat: 10000,
         ease: "none",
         duration: 5,
-        paused: true, // Pause the animation initially
       });
 
       return () => {
