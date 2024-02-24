@@ -22,7 +22,6 @@ const App = () => {
         <Vintagepage/>
         <Context/>
         <Marquee/>
-
         <BottomHero/>
         <Footer/>
         

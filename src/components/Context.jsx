@@ -16,7 +16,7 @@ const Context = () => {
             "Designers take full advantage of this effect not only regarding a target audience who has lived through the original retro designs",
             "Everything new is a well-forgotten old, so retro design appeals to the young, too.",
           ].map((par, index) => (
-            <p className="italic text-[1.6vw]">{par}</p>
+            <p key={index} className="italic text-[1.6vw]">{par}</p>
           ))}
         </div>
       </div>
