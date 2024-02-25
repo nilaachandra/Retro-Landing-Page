@@ -3,7 +3,7 @@ import { RiGithubFill, RiInstagramFill, RiTwitterFill } from "@remixicon/react";
 
 function Footer() {
   return (
-    <div className="w-full bg-black h-[45vh] flex flex-col justify-center items-center gap-[1.4vw] px-[10vw] py-[1.3vw]">
+    <div className="w-full bg-black lg:h-[45vh] h-[30vh] flex flex-col justify-center items-center gap-[1.4vw] px-[10vw] py-[1.3vw]">
       <p className="helvetica italic text-[1.2vw] text-white">
         Design Inspiration taken from Lera Zhurbenko
       </p>
@@ -18,14 +18,14 @@ function Footer() {
         ].map((elem, index) => (
           <a
             key={index}
-            className="uppercase helvetica text-white text-[1.2vw] p-2"
+            className="uppercase helvetica text-white text-[2vw] lg:text-[1.2vw] p-2"
             href=""
           >
             {elem}
           </a>
         ))}
       </div>
-      <div className="socials flex gap-[1vw]">
+      <div className="socials flex lg:gap-[1vw] gap-4">
         <a href="">
           <RiTwitterFill className="text-white" size={36} />
         </a>

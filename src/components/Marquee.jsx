@@ -42,15 +42,15 @@ const Marquee = () => {
       <div
         onMouseEnter={stopAnimate}
         onMouseLeave={resumeAnimate}
-        className="marquee whitespace-nowrap overflow-x-auto overflow-y-hidden w-full flex bg-black p-[1vw]"
+        className="marquee whitespace-nowrap overflow-x-auto overflow-y-hidden w-full flex bg-black py-[5vw] lg:py-[1vw]"
       >
-        <h1 className="run text-white text-[2.5vw] uppercase helvetica pr-[3vw]">
+        <h1 className="run text-white text-[5vw] lg:text-[2.5vw] uppercase helvetica pr-[3vw]">
           Vintage Retro Style Workshop
         </h1>
-        <h1 className="run text-white text-[2.5vw] uppercase helvetica pr-[3vw]">
+        <h1 className="run text-white text-[5vw] lg:text-[2.5vw] uppercase helvetica pr-[3vw]">
           Vintage Retro Style Workshop
         </h1>
-        <h1 className="run text-white text-[2.5vw] uppercase helvetica pr-[3vw]">
+        <h1 className="run text-white text-[5vw] lg:text-[2.5vw] uppercase helvetica pr-[3vw]">
           Vintage Retro Style Workshop
         </h1>
       </div>

@@ -43,7 +43,7 @@ function Moodboard() {
 
   return (
     <div
-      className="w-full flex flex-col border-2 border-black h-[50vh] lg:h-screen"
+      className="w-full flex flex-col border-2 border-black h-[42vh] lg:h-screen"
       ref={container}
     >
       <div className="title w-full pl-[8vw]">
