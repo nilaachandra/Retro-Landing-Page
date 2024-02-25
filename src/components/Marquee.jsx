@@ -10,7 +10,7 @@ const Marquee = () => {
     () => {
       myMarquee.current = gsap.to(".run", {
         x: "-100%",
-        repeat: 10000,
+        repeat: -1,
         ease: "none",
         duration: 5,
       });

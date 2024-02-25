@@ -1,44 +1,49 @@
 @font-face {
-    font-family: Helvetica;
-    src: url(./fonts/Helvetica.ttf);
+  font-family: Helvetica;
+  src: url(./fonts/Helvetica.ttf);
 }
 @font-face {
-    font-family: Recoleta;
-    src: url(./fonts/recoleta-regulardemo.otf);
+  font-family: Recoleta;
+  src: url(./fonts/recoleta-regulardemo.otf);
 }
 @font-face {
-    font-family: Reikna;
-    src: url(./fonts/Reikna.ttf);
+  font-family: Reikna;
+  src: url(./fonts/Reikna.ttf);
 }
 @font-face {
-    font-family: Emilio;
-    src: url(./fonts/emilio.ttf);
+  font-family: Emilio;
+  src: url(./fonts/emilio.ttf);
 }
 @font-face {
-    font-family: Mango;
-    src: url(./fonts/WildMango.otf);
+  font-family: Mango;
+  src: url(./fonts/WildMango.otf);
 }
 .helvetica {
-    font-family: Helvetica;
+  font-family: Helvetica;
 }
 .recoleta {
-    font-family: Recoleta;
+  font-family: Recoleta;
 }
-.reikna{
-    font-family: Reikna;
+.reikna {
+  font-family: Reikna;
 }
-.emilio{
-    font-family: Emilio;
+.emilio {
+  font-family: Emilio;
 }
-.mango{
-    font-family: Mango;
+.mango {
+  font-family: Mango;
 }
-.logo{
-    border-radius: 50% 50% 0 0;
-    overflow: hidden;
+.logo {
+  border-radius: 50% 50% 0 0;
+  overflow: hidden;
 }
 
-.marquee::-webkit-scrollbar{
+.marquee::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .dv-none {
     display: none;
+    visibility: hidden;
+  }
 }
-
