@@ -3,7 +3,7 @@ import { RiGithubFill, RiInstagramFill, RiTwitterFill } from "@remixicon/react";
 
 function Footer() {
   return (
-    <div className="w-full bg-black lg:h-[45vh] h-[32vh] flex flex-col justify-center items-center gap-[1.4vw] px-[10vw] py-[1.3vw]">
+    <div className="w-full bg-black min-h-[30vh] lg:h-[45vh] flex flex-col justify-center items-center gap-[1.4vw] px-[10vw] py-[1.3vw]">
       <p className="helvetica italic text-[1.8vw] lg:text-[1.2vw] text-white">
         Design Inspiration taken from Lera Zhurbenko
       </p>

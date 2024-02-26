@@ -14,8 +14,8 @@ import Moodboard from "./components/Moodboard";
 const App = () => {
   return (
     <>
+            <Navbar/>
       <div className="w-full overflow-x-hidden overflow-y-auto">
-        <Navbar/>
         <Landingpage/>
         <AboutPage/>
         <Featurespage/>

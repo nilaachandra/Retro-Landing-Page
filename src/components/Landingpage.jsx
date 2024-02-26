@@ -3,7 +3,7 @@ import ImageCard from "./ImageCard";
 
 const Landingpage = () => {
   return (
-    <div className="w-full h-[90vh] flex flex-col bg-[#eecbd7] lg:flex-row">
+    <div className="w-full h-[100vh] flex flex-col bg-[#eecbd7] lg:flex-row">
       <div className="leftside w-full h-full border-2 border-black flex flex-col items-center justify-center gap-[1.5vw]
       lg:w-1/2">
         <div className="herotext w-full flex flex-col justify-center items-center">
