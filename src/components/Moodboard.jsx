@@ -42,7 +42,7 @@ function Moodboard() {
   };
 
   return (
-    <div
+    <div id="moodboard"
       className="w-full flex flex-col border-2 border-black h-[42vh] lg:h-screen"
       ref={container}
     >

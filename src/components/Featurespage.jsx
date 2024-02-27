@@ -2,7 +2,7 @@ import React from "react";
 
 const Featurespage = () => {
   return (
-    <div className="w-full h-screen flex flex-col lg:flex-row">
+    <div id="features" className="w-full h-screen flex flex-col lg:flex-row">
       <div className="leftside w-full lg:h-full h-[60vh] bg-[#75b079] border-2 border-black lg:w-1/2">
         <div className="features w-full border-2 border-b-0 border-black px-[8vw] pt-[4vw] pb-[2vw] flex flex-col">
           <h1 className="mango text-left text-[16vw] leading-[16vw] lg:text-[6vw] lg:leading-[6vw]">Features</h1>

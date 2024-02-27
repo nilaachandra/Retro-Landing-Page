@@ -3,7 +3,7 @@ import ImageCard from './ImageCard'
 
 function BottomHero() {
   return (
-    <div className='w-full lg:h-[92vh] flex flex-col-reverse lg:flex-row bg-[#fff7f1]'>
+    <div id='workshop' className='w-full lg:h-[92vh] flex flex-col-reverse lg:flex-row bg-[#fff7f1]'>
         <div className="leftside w-full lg:w-1/2 h-full border-2 border-black">
             <ImageCard image="https://images.unsplash.com/photo-1588960546673-192261e93146?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fHJldHJvfGVufDB8fDB8fHww"/>
         </div>

@@ -9,19 +9,18 @@ function Footer() {
       </p>
       <div className="w-full links flex justify-center items-center gap-[2vw]">
         {[
-          "about",
-          "features",
-          "moodboard",
-          "context",
-          "examples",
-          "workshop",
+          { link: "about", href: "#about" },
+          { link: "features", href: "#features" },
+          { link: "moodboard", href: "#moodboard" },
+          { link: "context", href: "#context" },
+          { link: "workshop", href: "#workshop" },
         ].map((elem, index) => (
           <a
             key={index}
             className="uppercase helvetica text-white text-[2vw] lg:text-[1.2vw] p-2"
-            href=""
+            href={elem.href}
           >
-            {elem}
+            {elem.link}
           </a>
         ))}
       </div>

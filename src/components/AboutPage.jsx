@@ -3,7 +3,7 @@ import ImageCard from './ImageCard'
 
 const AboutPage = () => {
   return (
-    <div className='w-full lg:h-screen h-[40vh] flex flex-col bg-[#dea350] lg:flex-row'>
+    <div id='about' className='w-full lg:h-screen h-[40vh] flex flex-col bg-[#dea350] lg:flex-row'>
         <div className="leftside w-full h-full border-2 border-black lg:w-1/2 dv-none">
             <ImageCard className="w-full h-full" image="https://images.unsplash.com/photo-1623910270913-3e0294a1c765?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
         </div>

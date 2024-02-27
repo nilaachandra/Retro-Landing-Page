@@ -3,7 +3,7 @@ import ImageCard from "./ImageCard";
 
 const Context = () => {
   return (
-    <div className="w-full flex h-screen flex-col-reverse lg:flex-row">
+    <div id='context' className="w-full flex h-screen flex-col-reverse lg:flex-row">
       <div className="leftside w-full lg:w-1/2 h-full border-2 border-black">
         <ImageCard image="https://images.unsplash.com/photo-1575584803762-e75aa6231f8a?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
       </div>

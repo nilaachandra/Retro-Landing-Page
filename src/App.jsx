@@ -10,6 +10,7 @@ import BottomHero from "./components/BottomHero";
 import Footer from "./components/Footer";
 import Marquee from "./components/Marquee";
 import Moodboard from "./components/Moodboard";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Context/>
         <Marquee/>
         <BottomHero/>
+        <ScrollToTop/>
         <Footer/>
       </div>
     </>
