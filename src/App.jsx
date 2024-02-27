@@ -11,22 +11,24 @@ import Footer from "./components/Footer";
 import Marquee from "./components/Marquee";
 import Moodboard from "./components/Moodboard";
 import ScrollToTop from "./components/ScrollToTop";
+import CustomCursor from "./components/CustomCursor";
 
 const App = () => {
   return (
     <>
-            <Navbar/>
+    <CustomCursor/>
+      <Navbar />
       <div className="w-full overflow-x-hidden overflow-y-auto">
-        <Landingpage/>
-        <AboutPage/>
-        <Featurespage/>
-        <Vintagepage/>
-        <Moodboard/>
-        <Context/>
-        <Marquee/>
-        <BottomHero/>
-        <ScrollToTop/>
-        <Footer/>
+        <Landingpage />
+        <AboutPage />
+        <Featurespage />
+        <Vintagepage />
+        <Moodboard />
+        <Context />
+        <Marquee />
+        <BottomHero />
+        <ScrollToTop />
+        <Footer />
       </div>
     </>
   );
