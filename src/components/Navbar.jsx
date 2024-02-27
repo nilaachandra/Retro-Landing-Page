@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <div className="">
       <div className="navitems fixed top-0 left-0 px-[3vw] py-[.4vw] flex justify-between items-center w-full  z-30">
-        <h1 className="mango text-[4vw] leading-[4vw] text-black">Retro</h1>
+        <h1 className="mango text-[8vw] leading-[8vw] lg:text-[4vw] lg:leading-[4vw] text-black">Retro</h1>
         <h1 onClick={toggleNav} className="cursor-pointer">
           <RiMenu4Fill className="text-black" size={36} />
         </h1>
